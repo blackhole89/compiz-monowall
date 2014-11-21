@@ -1,0 +1,6 @@
+PLUGIN = monowall
+PKG_DEP = compiz-mousepoll
+CHK_HEADERS = compiz-mousepoll.h
+CFLAGS_ADD = `pkg-config --cflags cairo`
+LDFLAGS_ADD = `pkg-config --libs cairo` 
+
